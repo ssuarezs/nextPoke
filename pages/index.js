@@ -28,7 +28,7 @@ const Title = styled.h1`
 const Pokemons = ({ pokemons }) => {
   return (
     <Container>
-      <Title>Pokemons</Title>
+      <Title>My Pokemons App</Title>
       <List>
         {pokemons.map(pokemon => 
           <Pokemon pokemon={pokemon} key={pokemon.name} />
